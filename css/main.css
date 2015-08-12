@@ -1,0 +1,400 @@
+@font-face {
+  font-family: 'Chaparral';
+  src:  url('ChaparralPro-Regular.woff2') format('woff2'),
+        url('ChaparralPro-Regular.woff') format('woff');
+}
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+body {
+    font: 16px/26px Lato, Helvetica, Helvetica Neue, Arial;
+    text-align: center;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.title {
+    font-weight:100;
+    font-size: 1.9em;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    margin: 0 auto;
+}
+
+.logo-short {
+    position: absolute;
+    left:30px;
+    text-decoration: none;
+}
+.header-short .logo {
+    height:20px;
+    padding:20px;
+    display: inline-block;
+    margin: 0;
+}
+
+.header-short .title {
+    display: inline-block;
+    font-weight:300;
+    font-size:1em;
+    letter-spacing:.11em;
+    position:relative;
+    top:2px;
+}
+
+.title-container {
+    text-align: center;
+    padding: 30px 0 0 0;
+}
+
+.home-image {
+    display: inline-block;
+    width:300px;
+    height: 400px;
+    margin: 3px;
+}
+.home-image.oliver { background-image: url('../img/home/oliver.png'); }
+
+.home-image.pico { background-image: url('../img/home/pico.png'); }
+
+.home-image.crowdchange { background-image: url('../img/home/crowdchange.png');}
+
+.home-image.lumator { background-image: url('../img/home/lumator.png');}
+
+.home-image.refresh { background-image: url('../img/home/refresh.png');}
+
+.home-image.checkmeout { background-image: url('../img/home/checkmeout.png');}
+
+.home-image .caption {
+    height:160px;
+    width:300px;
+    background-color: #fff;
+}
+
+.main-container {
+    width: max-content;    
+    margin: 0 auto;
+}
+.header-short {
+    height:60px;
+    width:100%;
+    background-color: rgba(255,255,255,1);
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.20);
+    position:fixed;
+    top:0;
+    left:0;
+}
+.article-content {
+    padding-top:60px;
+    width:700px;
+    margin: 0 auto;
+}
+p {
+    font-family: "Merriweather";
+    font-weight: 100;
+    font-size:18px;
+    letter-spacing: 0.01rem;
+    line-height:1.8;
+    text-align: left;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+h1 {
+    font-family: "Lato";
+    font-size: 68px;
+}
+.subtitle {
+    font-style: italic;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+h2 {
+    font-family: "Lato";
+    text-align: left;
+    font-size:36px;
+    -webkit-margin-before: 1.6em;
+    -webkit-margin-after: .7em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+ul {
+    text-align: left;
+    font-family: "Merriweather";
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 0.01rem;
+    line-height: 1.8;
+}
+ul li {
+    -webkit-margin-after: .7em;
+}
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    nav a {
+        float: left;
+        width: 27%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container{
+        padding: 40px;
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    nav {
+        float: right;
+        width: 38%;
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        float: left;
+        width: 57%;
+    }
+
+    .main aside {
+        float: right;
+        width: 28%;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+/*
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}*/
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
