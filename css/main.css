@@ -122,17 +122,17 @@ textarea {
     height: 400px;
     margin: 3px;
 }
-.home-image.oliver { background-image: url('img/home/Oliver.png'); }
+.home-image.oliver { background-image: url('../img/home/Oliver.png'); }
 
-.home-image.pico { background-image: url('img/home/Pico.png'); }
+.home-image.pico { background-image: url('../img/home/Pico.png'); }
 
-.home-image.crowdchange { background-image: url('img/home/CrowdChange.png');}
+.home-image.crowdchange { background-image: url('../img/home/CrowdChange.png');}
 
-.home-image.lumator { background-image: url('img/home/Lumator.png');}
+.home-image.lumator { background-image: url('../img/home/Lumator.png');}
 
-.home-image.refresh { background-image: url('img/home/Refresh.png');}
+.home-image.refresh { background-image: url('../img/home/Refresh.png');}
 
-.home-image.checkmeout { background-image: url('img/home/CheckMeOut.png');}
+.home-image.checkmeout { background-image: url('../img/home/CheckMeOut.png');}
 
 .home-image .caption {
     height:160px;
