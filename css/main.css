@@ -225,6 +225,11 @@ ul li {
     right:0;
     margin-top: 50px;
 }
+.half-width {
+    width: 50%;
+    display:block;
+    margin: 0 auto;
+}
 .article-width {
     width: 100%;
 }
@@ -235,7 +240,8 @@ ul li {
     clear: both;
 }
 .article-details {
-    float: left;
+    display: flex;
+    flex-direction:row;    
     padding: 0 10%;
     box-sizing: border-box;
 }
@@ -315,6 +321,12 @@ ul li {
     height: 0.1px;
     background-color: #ccc;
     margin: 60px auto 0 auto;
+}
+.img-link {
+    border:none;
+}
+.img-shadow {
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.20);
 }
 
 /* ==========================================================================
@@ -431,7 +443,7 @@ ul li {
 .invisible {
     visibility: hidden;
 }
-/*
+
 .clearfix:before,
 .clearfix:after {
     content: " ";
@@ -444,7 +456,7 @@ ul li {
 
 .clearfix {
     *zoom: 1;
-}*/
+}
 
 /* ==========================================================================
    Print styles
