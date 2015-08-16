@@ -225,6 +225,11 @@ ul li {
     right:0;
     margin-top: 50px;
 }
+.half-width {
+    width: 50%;
+    display:block;
+    margin: 0 auto;
+}
 .article-width {
     width: 100%;
 }
