@@ -63,6 +63,12 @@ textarea {
     width: 90%;
     margin: 0 5%;
 }
+a,
+a:visited {
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
 
 /* ===============
     ALL: IE Fixes
@@ -94,6 +100,7 @@ textarea {
     position: absolute;
     left:30px;
     text-decoration: none;
+    border: none;
 }
 .header-short .logo {
     height:20px;
@@ -153,10 +160,13 @@ textarea {
     top:0;
     left:0;
 }
-.article-content {
-    padding-top:60px;
-    width:700px;
+.main-content {
+    padding-top:50px;
+}
+.article-text {
+    width: 900px;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 p {
     font-family: "Merriweather";
@@ -170,6 +180,13 @@ p {
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
+}
+.article-text p,
+.article-text h2 {
+    padding: 0 100px;
+}
+.article-text ul {
+    padding: 0 150px;
 }
 h1 {
     font-family: "Lato";
@@ -201,10 +218,104 @@ ul {
 ul li {
     -webkit-margin-after: .7em;
 }
+ .full-width {
+    width: 100%;
+    display:block;
+    left:0;
+    right:0;
+    margin-top: 50px;
+}
+.article-width {
+    width: 100%;
+}
+.float-right {
+    width:400px;
+    float:right;
+    margin: 10px 0 10px 10px;
+    clear: both;
+}
+.article-details {
+    float: left;
+    padding: 0 10%;
+    box-sizing: border-box;
+}
+.article-details p,
+.article-details a {
+ font-family: "Merriweather";
+    font-size:14px;
+    letter-spacing: 0.01rem;
+}
+.article-details p{
+    line-height:1.8;
+    margin-bottom:30px;
+}
+.article-details>div {
+    float: left;
+    box-sizing: border-box;
+}
+.brief,
+.contributions {
+    width: 35%;
+    padding:0 30px;
+}
+.collaborators {
+    width:25%;
+    padding: 0 0 0 10px;
+    text-align: left;
+}
+.collaborators a {
+    display: block;
+    margin-top: 15px;
+    display: inline-block;
+}
+.collaborators a:first-of-type {
+    margin-top:15px;
+}
+.article-details .header {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: -15px;
+}
+.details-divider {
+    display: block;
+    width:80%;
+    height: 0.1px;
+    background-color: #ccc;
+    margin: 30px auto;
+}
+.side-by {
+    width:45%;
+    float:left;
+    margin-left:5%;
+    margin-bottom:30px;
+}
 
-
-
-
+.pull-quote {
+    padding:0 !important;
+    font-size:26px;
+    font-style: italic;
+    text-align: center;
+}
+.footer-container {
+    height:150px;
+}
+.footer-container a {
+    font-size: 18px;
+    border: none;
+}
+.footer-container .wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+.footer-divider {
+    display: block;
+    width:700px;
+    height: 0.1px;
+    background-color: #ccc;
+    margin: 60px auto 0 auto;
+}
 
 /* ==========================================================================
    Media Queries
@@ -351,7 +462,9 @@ ul li {
 
     a,
     a:visited {
-        text-decoration: underline;
+        text-decoration: none;
+        border-bottom: 1px solid;
+        padding-bottom:3px;
     }
 
     a[href]:after {
