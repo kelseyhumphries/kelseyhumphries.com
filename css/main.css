@@ -404,6 +404,15 @@ footer .mail {
 .heart-list li {
     -webkit-margin-after:.2em;
 }
+.project-row {
+    display:flex;
+    flex-direction:row;
+}
+.projects {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
 @media only screen and (max-width: 900px) {
     .video-embed {
         width: 600px;
@@ -421,6 +430,12 @@ footer .mail {
     .float-right {
         float:none;
         width:100%;
+    }
+}
+@media only screen and (max-width: 670px) {
+    .project-row {
+        display:flex;
+        flex-direction:column;
     }
 }
 @media only screen and (max-width: 620px) {
