@@ -113,7 +113,11 @@ a:visited {
     border-radius: 5px;
 }
 .header-container {
+    display:-webkit-box;
+    display:ms-flexbox;
+    display:-webkit-flex;
     display: flex;
+    -webkit-flex-direction:column;
     flex-direction: column;
     margin: 0 auto;
     padding: 0;
@@ -256,7 +260,12 @@ ul li {
     clear: both;
 }
 .article-details {
+    display:-webkit-box;
+    display:ms-flexbox;
+    display:-webkit-flex;
     display: flex;
+    -ms-flex-direction:row;
+    -webkit-flex-direction:row;
     flex-direction:row;    
     padding: 0 10%;
     box-sizing: border-box;
@@ -272,7 +281,9 @@ ul li {
     margin-top: -20px;
 }
 .article-details ul li {
+    -ms-margin-after: .2em;
     -webkit-margin-after: .2em;
+    margin-after: .2em;
 }
 .article-details p{
     line-height:1.8;
@@ -342,14 +353,22 @@ footer a {
     text-transform: uppercase;
 }
 .footer-wrapper {
+    display: -ms-flex;
     display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction:row;
+    -webkit-flex-direction:row;
     flex-direction: row;
     padding: 60px 54px;
     max-width:912px;
     margin: 0 auto;
 }
 .footer-links {
+    display: -ms-flex;
     display:-webkit-flex;
+    display: flex;
+    -ms-flex-direction:column;
+    -webkit-flex-direction:column;
     flex-direction: column;
     margin-left:auto;
     text-align: right;
@@ -402,16 +421,29 @@ footer .mail {
     font-weight:300;
 }
 .heart-list li {
+    -ms-margin-after:.2em;
     -webkit-margin-after:.2em;
+    margin-after:.2em;
 }
 .project-row {
-    display:flex;
+    display:-webkit-box;
+    display: ms-flexbox;
+    display:-webkit-flex;
+    display: flex;
+    -ms-flex-direction:row;
+    -webkit-flex-direction:row;
     flex-direction:row;
 }
 .projects {
+    display:-webkit-box;
+    display:ms-flexbox;
+    display:-webkit-flex;
     display:flex;
+    -ms-flex-direction:column;
+    -webkit-flex-direction:column;
     flex-direction:column;
     align-items:center;
+    -webkit-align-items:center;
 }
 @media only screen and (max-width: 900px) {
     .video-embed {
@@ -421,6 +453,8 @@ footer .mail {
 }
 @media only screen and (max-width: 788px) {
     .article-details {
+        -ms-flex-direction:column;
+        -webkit-flex-direction:column;
         flex-direction:column;
     }
     .brief, .contributions, .collaborators {
@@ -434,7 +468,12 @@ footer .mail {
 }
 @media only screen and (max-width: 670px) {
     .project-row {
+        display:-webkit-box;
+        display:ms-flexbox;
+        display:-webkit-flex;
         display:flex;
+        -ms-flex-direction:column;
+        -webkit-flex-direction:column;
         flex-direction:column;
     }
 }
@@ -443,6 +482,8 @@ footer .mail {
         font-size:1.3em;
     }
     .footer-wrapper {
+        -ms-flex-direction:column;
+        -webkit-flex-direction:column;
         flex-direction: column;
         padding:20px 40px;
     }
@@ -450,12 +491,16 @@ footer .mail {
         font-size:16px;
     }
     .footer-links {
-        order:0;
+        -ms-order: 0;
+        -webkit-order: 0;
+        order: 0;
         text-align: center;
         margin: 0 auto;
     }
     .footer-about {
-        order:1;
+        -ms-order: 1;
+        -webkit-order: 1;
+        order: 1;
     }
     h1 {
         font-size: 40px;
@@ -484,7 +529,9 @@ footer .mail {
     }
     .article-text h2 {
         font-size:30px;
+        -ms-margin-before: 1em;
         -webkit-margin-before: 1em;
+        margin-before: 1em;
     }
     .article-text ul {
         padding: 0 30px;
