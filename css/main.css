@@ -86,6 +86,7 @@ a:visited {
     margin: 0 auto;
     padding: 30px 30px 0 30px;
     width:25%;
+    max-width:230px;
     height:auto;
 }
 
@@ -153,15 +154,66 @@ a:visited {
     display: inline-block;
     width: 320px;
     height: 320px;
+}
+.img-wrapper {
+    width:320px;
+    height:320px;
     margin: 3px;
+    overflow:hidden;
 }
-
-.home-image .caption {
-    height:160px;
-    width:300px;
-    background-color: #fff;
+.img-wrapper img {
+    position:relative;
+    top:-240px;
 }
-
+.img-pico img {
+    top:-220px;
+}
+.img-wrapper:hover img{
+    opacity:0;
+    -webkit-filter: blur(6px);
+}
+.img-wrapper:hover .img-title{
+    visibility:visible;
+}
+.img-wrapper:hover .img-details{
+    visibility:visible;
+}
+.img-title {
+    visibility:hidden;
+    position:relative;
+    text-align: center;
+    top:60px;
+    z-index: 5;
+    color:#fff;
+    text-transform:uppercase;
+    letter-spacing: .05em;
+    font-size:26px;
+}
+.img-details {
+    visibility:hidden;
+    position:relative;
+    text-align: center;
+    top:30px;
+    color:#fff;
+    z-index: 4;
+    padding:40px 30px;
+    line-height:20px;
+    font-size:14px;
+    font-weight:300;
+    letter-spacing: 0.06;
+}
+.img-bb {
+    background-color:#00BCD4;
+}
+.img-oliver {
+    background-color: #8B3DF2;
+}
+.img-pico {
+    background-color: #FF216B;
+}
+.img-checkmeout {
+    background-color: #00C853;
+}
 .main-container {
     width: max-content;    
     margin: 0 auto;
@@ -480,6 +532,7 @@ footer .mail {
 @media only screen and (max-width: 620px) {
     .title {
         font-size:1.3em;
+        font-weight:300;
     }
     .footer-wrapper {
         -ms-flex-direction:column;
@@ -684,11 +737,17 @@ footer .mail {
     a,
     a:visited {
         text-decoration: none;
-        background-image: linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,0,0,0.6) 50%);
+         background-image: linear-gradient(to top,
+            rgba(0,0,0,0) 11%,
+            rgba(0,0,0,.3) 11%,
+            rgba(0,0,0,.3) 16%,
+            rgba(0,0,0,0) 16%
+        );
+        /*background-image: linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,0,0,0.6) 50%);
         background-repeat: repeat-x;
         background-size: 2px 2px;
         background-position: 0 23px;
-        padding-bottom:3px;
+        padding-bottom:3px;*/
     }
 
     a[href]:after {
