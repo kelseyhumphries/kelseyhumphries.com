@@ -398,6 +398,7 @@ footer {
     box-sizing: border-box;
     background-color: #F7F7F7;
     margin-top: 30px;
+    width:100%;
 }
 footer a {
     background-image:none;
@@ -517,6 +518,11 @@ footer .mail {
         float:none;
         width:100%;
     }
+    .about-text {
+        margin:0 auto;
+        width:100%;
+        font-size:13px;
+    }
 }
 @media only screen and (max-width: 670px) {
     .project-row {
@@ -548,7 +554,7 @@ footer .mail {
         -webkit-order: 0;
         order: 0;
         text-align: center;
-        margin: 0 auto;
+        margin: 10px auto 20px auto;
     }
     .footer-about {
         -ms-order: 1;
@@ -591,74 +597,6 @@ footer .mail {
         font-size:14px;
     }
 }
-/* ==========================================================================
-   Media Queries
-   ========================================================================== */
-
-/*@media only screen and (min-width: 480px) {*/
-
-/* ====================
-    INTERMEDIATE: Menu
-   ==================== */
-
-/*    nav a {
-        float: left;
-        width: 27%;
-        margin: 0 1.7%;
-        padding: 25px 2%;
-        margin-bottom: 0;
-    }
-
-    nav li:first-child a {
-        margin-left: 0;
-    }
-
-    nav li:last-child a {
-        margin-right: 0;
-    }*/
-
-/* ========================
-    INTERMEDIATE: IE Fixes
-   ======================== */
-
-/*    nav ul li {
-        display: inline;
-    }
-}*/
-
-/*@media only screen and (min-width: 768px) {*/
-
-/* ====================
-    WIDE: CSS3 Effects
-   ==================== */
-
-/*    .header-container{
-        padding: 40px;
-    }*/
-
-/* ============
-    WIDE: Menu
-   ============ */
-
-/*    nav {
-        float: right;
-        width: 38%;
-    }*/
-
-/* ============
-    WIDE: Main
-   ============ */
-/*
-    .main article {
-        float: left;
-        width: 57%;
-    }
-
-    .main aside {
-        float: right;
-        width: 28%;
-    }
-}*/
 
 @media only screen and (min-width: 1140px) {
 
