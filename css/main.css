@@ -498,6 +498,13 @@ footer .mail {
     align-items:center;
     -webkit-align-items:center;
 }
+#img-banjo {
+    position:relative;
+    top:-150px;
+    left:200px;
+    height:200px;
+    width:auto;
+}
 @media only screen and (max-width: 900px) {
     .video-embed {
         width: 600px;
