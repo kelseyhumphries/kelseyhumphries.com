@@ -468,15 +468,21 @@ footer .mail {
     text-align: center;
     list-style: none;
     padding:0;
-    margin:0;
+    margin:0 auto;
     font-family:"Lato";
     font-size:20px;
     font-weight:300;
+    width:200px;
 }
 .heart-list li {
     -ms-margin-after:.2em;
     -webkit-margin-after:.2em;
     margin-after:.2em;
+    position:relative;
+    cursor:default;
+}
+.heart-list a li{
+    cursor:pointer;
 }
 .project-row {
     display:-webkit-box;
@@ -498,12 +504,37 @@ footer .mail {
     align-items:center;
     -webkit-align-items:center;
 }
-#img-banjo {
-    position:relative;
-    top:-150px;
-    left:200px;
-    height:200px;
+.heart-list img {
+    position:absolute;
     width:auto;
+    z-index:99;
+    display:none;
+}
+#img-making {
+    height:400px;
+    top:-120px;
+    left:70px;
+}
+#img-learning {
+    height:500px;
+    top:-160px;
+    left:-480px;
+}
+#img-banjo {
+    top:-230px;
+    left:230px;
+    height:200px;  
+}
+#img-banjo-arrow {
+    top:-220px;
+    left:40px;
+    height:400px;
+}
+/*.heart-list li:hover {
+    background-color: rgb(247, 247, 247);
+}*/
+.heart-list li:hover > img {
+    display:block;
 }
 @media only screen and (max-width: 900px) {
     .video-embed {
