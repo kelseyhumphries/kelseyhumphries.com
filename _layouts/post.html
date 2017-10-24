@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<div class="header-short">
+    <a class="logo-short" href="{{"index.html" | relative_url}}">
+        <img class="small-logo" src="{{ "/img/logo.png" | relative_url }}">
+        <span class="title">Kelsey Humphries</span>
+    </a>
+</div>
+<div class="main-content">
+    <h1>{{ page.title }}</h1>
+    <p class="subtitle">{{ page.subtitle }}</p>
+    <div class="article-details clear-fix">
+        <div class="brief">
+            <p class="header">The Brief</p>
+            <p>{{ page.brief }}</p>
+            <p class="header">Time Frame</p>
+            <p>{{ page.time }}</p>
+        </div>
+        <div class="contributions">
+            <p class="header">My Contributions</p>
+                <p>
+                {% for item in page.contributions %}
+                    {{ item }}, <br>
+                {% endfor %}
+                </p>
+        </div>
+        <div class="collaborators">
+            <p class="header">Collaborators</p>
+            {% for person in page.collaborators %}
+                <a href="{{ person.link }}" target="_blank">{{ person.name }}</a><br>
+            {% endfor %}
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <hr class="details-divider">
+    <div class="article-text">
+        {{ content }}
+    </div>
+</div>

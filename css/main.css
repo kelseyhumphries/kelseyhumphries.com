@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    font: 16px/26px Lato, Helvetica, Helvetica Neue, Arial;
+    font: 16px/26px "Lato", Helvetica, "Helvetica Neue", Arial;
     text-align: center;
 }
 
@@ -230,6 +230,7 @@ a:visited {
 }
 .main-content {
     padding-top:50px;
+    padding-bottom:50px;
 }
 .article-text {
     max-width: 900px;
@@ -253,8 +254,17 @@ p {
 .article-text h2 {
     padding: 0 100px;
 }
+.article-text h2 {
+   line-height:1.1;
+}
+.article-text img {
+    padding: 16px 0;
+}
 .article-text ul {
     padding: 0 150px;
+}
+.article-text .break-out>p {
+    padding:0;
 }
 h1 {
     font-family: "Lato";
@@ -607,6 +617,7 @@ footer .mail {
     .article-text p,
     .article-text h2 {
         padding: 0 20px;
+        line-height: 1.1;
     }
     .article-text p {
         padding: 0 20px;
