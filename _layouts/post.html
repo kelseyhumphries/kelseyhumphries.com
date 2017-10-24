@@ -25,12 +25,14 @@ layout: default
                 {% endfor %}
                 </p>
         </div>
-        <div class="collaborators">
-            <p class="header">Collaborators</p>
-            {% for person in page.collaborators %}
-                <a href="{{ person.link }}" target="_blank">{{ person.name }}</a><br>
-            {% endfor %}
-        </div>
+        {% if page.collaborators %}
+            <div class="collaborators">
+                <p class="header">Collaborators</p>
+                {% for person in page.collaborators %}
+                    <a href="{{ person.link }}" target="_blank">{{ person.name }}</a><br>
+                {% endfor %}
+            </div>
+        {% endif %}
         <div class="clearfix"></div>
     </div>
     <hr class="details-divider">

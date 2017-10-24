@@ -258,7 +258,7 @@ p {
    line-height:1.1;
 }
 .article-text img {
-    padding: 16px 0;
+    margin: 16px auto;
 }
 .article-text ul {
     padding: 0 150px;
@@ -389,8 +389,8 @@ ul li {
 .side-by {
     width:45%;
     float:left;
-    margin-left:5%;
-    margin-bottom:30px;
+    margin-left:30px !important;
+    margin-bottom:30px !important;
 }
 
 .pull-quote {
