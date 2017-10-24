@@ -1,4 +1,5 @@
 ---
+featured: true
 layout: post
 title: Branding Brand
 subtitle: Mobile Commerce & Product Design

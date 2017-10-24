@@ -15,7 +15,8 @@ title: Portfolio
     </div>
 
     <div class="main-container">
-    {% for post in site.posts %}
+    {% assign featured_posts = site.posts | where:'featured', 'true' %}
+    {% for post in featured_posts %}
     {% assign loopindex = forloop.index | modulo: 2 %}
     {% if loopindex == 1 %}
         <div class="project-row">
