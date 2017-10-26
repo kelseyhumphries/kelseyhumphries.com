@@ -29,6 +29,8 @@ We also spent time mapping out the current state of each section of the portal a
 
 ![mholm-claims-quotable]({{ "img/mholm/claims-quotable.png" | relative_url }}){:class="full-width img-shadow"}
 
+![mholm-claims-beta-1280]({{ "img/mholm/claims-beta-1280.png" | relative_url }}){:class="full-width img-shadow"}
+
 ## Example: Wellness Registration
 
 ![mholm-wer-current]({{ "img/mholm/wer-current.png" | relative_url }}){:class="full-width img-shadow"}
