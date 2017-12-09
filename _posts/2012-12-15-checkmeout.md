@@ -1,5 +1,5 @@
 ---
-featured: true
+featured: false
 layout: post
 title: Check Me Out
 subtitle: A better grocery shopping experience

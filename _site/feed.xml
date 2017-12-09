@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-09T11:55:42-05:00</updated><id>http://localhost:4000/</id><title type="html">Kelsey Humphries Portfolio</title><subtitle>design, research, strategy</subtitle><entry><title type="html">UPMC Unity</title><link href="http://localhost:4000/upmc-unity/" rel="alternate" type="text/html" title="UPMC Unity" /><published>2017-11-15T00:00:00-05:00</published><updated>2017-11-15T00:00:00-05:00</updated><id>http://localhost:4000/upmc-unity</id><content type="html" xml:base="http://localhost:4000/upmc-unity/">&lt;h2 id=&quot;opportunity&quot;&gt;Opportunity&lt;/h2&gt;
+&lt;p&gt;In the past couple of years, the design team at UPMC Health Plan has more than tripled in size. The team has also been tasked with ensuring consistent, quality user experiences across several different products and portals within UPMC. This level of growth and increased responsibility has highlighted a need for a consistent visual language across products. Our team was spending too much time on the small things, like what a particular call to action should look like, and this didn’t leave time for the bigger problems our products and users were facing.&lt;/p&gt;
+
+&lt;h2 id=&quot;interface-inventory&quot;&gt;Interface Inventory&lt;/h2&gt;
+&lt;p&gt;A quick inventory of just one product (MyHealth Online, our member portal) revealed a large amount of inconsistency. For example, there were over 30 different styles of buttons:
+&lt;img src=&quot;/img/unity/inventory-buttons.png&quot; alt=&quot;unity-buttons&quot; class=&quot;full-width&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And many different styles of icons, as well as redundant, similar icons:
+&lt;img src=&quot;/img/unity/inventory-icons.png&quot; alt=&quot;unity-icons&quot; class=&quot;full-width&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;initial-sprint&quot;&gt;Initial Sprint&lt;/h2&gt;
+&lt;p&gt;We gathered the team and spent six weeks on an initial sprint to define some of the more basic elements, such as color, typography, buttons, form fields, etc.
+&lt;img src=&quot;/img/unity/first-sprint.jpeg&quot; alt=&quot;unity-sprint&quot; class=&quot;full-width&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I facilitated discussions around best practices, exisisting patterns, and guidelines around how to use these different elements.
+&lt;img src=&quot;/img/unity/colors.jpeg&quot; alt=&quot;unity-color&quot; class=&quot;full-width&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The end result of this initial sprint was an established, digital color palette, typography scale, and Sketch and Axure libraries with common components.&lt;/p&gt;
+
+&lt;h2 id=&quot;selling-the-system&quot;&gt;Selling the System&lt;/h2&gt;
+&lt;p&gt;Although this first sprint was a huge step in the right direction, I knew that our efforts would be quickly out of date unless we were able to connect with development efforts and create a living, single source of truth for all components. However, navigating an organization as large and complex as UPMC proved to be a challenge. I needed to unite several different groups and department, each with their own priorities and deadlines. This involved a few months of presenting the value of the system, the current progress, and the future vision.
+&lt;img src=&quot;/img/unity/presentation.jpg&quot; alt=&quot;unity-presentation&quot; class=&quot;full-width&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;creating-a-process&quot;&gt;Creating a Process&lt;/h2&gt;
+&lt;p&gt;I realized that our easiest path forward was to tie into existing development projects, such as the MyHealth Online modernization that was currently underway. I created a pattern proposal process, where any designer or developer could fill out a simple form with an idea for a shared component. Additionally, I gathered together a group of designers and developers with a wide range of skillsets to form what we dubbed the “Pattern Congress”. This group met regularly to debate any open proposals or help prioritize system needs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/unity/pattern-process.jpeg&quot; alt=&quot;unity-process&quot; class=&quot;full-width&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;ongoing-efforts&quot;&gt;Ongoing Efforts&lt;/h2&gt;
+&lt;p&gt;Although this initial process gave us a solid start, I began to notice some pain points. Tying ourselves to exsisting projects also meant tying ourselves to their deadlines, technology choices, and processes. It became evident that this would limit the usefulness of the system to other products with different roadmaps and technology bases.&lt;/p&gt;
+
+&lt;p&gt;The next evolution of our design system is switching from an Angular component library to a CSS-only framework, which can be technology agnostic. This will help allow for faster system development and a reduced number of code conflicts and restrictions. Another key step that is currently underway is establishing a dedicated team to continue growing the system, educate stakeholders on how to use it, and provide tools for designers and developers.&lt;/p&gt;</content><author><name></name></author><summary type="html">Opportunity In the past couple of years, the design team at UPMC Health Plan has more than tripled in size. The team has also been tasked with ensuring consistent, quality user experiences across several different products and portals within UPMC. This level of growth and increased responsibility has highlighted a need for a consistent visual language across products. Our team was spending too much time on the small things, like what a particular call to action should look like, and this didn’t leave time for the bigger problems our products and users were facing.</summary></entry><entry><title type="html">MyHealth Online Redesign</title><link href="http://localhost:4000/upmc-mholm/" rel="alternate" type="text/html" title="MyHealth Online Redesign" /><published>2017-10-23T00:00:00-04:00</published><updated>2017-10-23T00:00:00-04:00</updated><id>http://localhost:4000/upmc-mholm</id><content type="html" xml:base="http://localhost:4000/upmc-mholm/">&lt;h2 id=&quot;opportunity&quot;&gt;Opportunity&lt;/h2&gt;
+&lt;p&gt;The portal for UPMC Health Plan members, MyHealth Online (MHOL), contains tools and information designed to help people manage their health insurance. It is used by over 377,000 registered members. However, like many legacy products, it was designed and developed in pieces by many people over long period of time. Most of the content and design of the portal had never been revisited since its initial conception. This resulted in a disjointed and confusing user experience. In addition, the age of the underlying technologies it was built on limited any opportunities for improvement.&lt;/p&gt;
+
+&lt;p&gt;Our IT department began an initiative to fully modernize and unify the underlying technologies of the portal. Consumer Innovation recognized an opportunity to refresh and standardize the visual design, as well as better organize information and content. Another large portion of this project was converting the current fixed-width designs into responsive designs, so that they would scale gracefully to any screen size.&lt;/p&gt;
+
+&lt;h2 id=&quot;mapping-current-state&quot;&gt;Mapping Current State&lt;/h2&gt;
+&lt;p&gt;Our first step was understanding the current ecosystem of pages: objectives, functions, and connections. We spent time mapping out the current state of each section of the portal and uncovering connections and dependencies that might influence our designs or approach.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/mholm/murderboard.jpg&quot; alt=&quot;mholm-mb&quot; class=&quot;full-width&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;evaluation-of-pages&quot;&gt;Evaluation of Pages&lt;/h2&gt;
+&lt;p&gt;This project had an ambitious deadline, which meant we needed to be strategic about our approach. We used analytics, stakeholder interviews, and heuristic evaluation to assign each page within the portal a “level of service”. This dictated whether we would be simply refreshing the visual design of the existing content on a page or using a more in-depth approach to evaluate and reorganize the content and improve the experience.&lt;/p&gt;
+
+&lt;h2 id=&quot;process-improvement&quot;&gt;Process Improvement&lt;/h2&gt;
+&lt;p&gt;At the time of this project, much of UPMC’s technology process was agile in name but closer to waterfall in nature. This resulted in developers needing to see completed, approved designs before any development could begin. Often, this caused designers to jump straight to high-fidelity designs to avoid becoming the bottleneck for development, but this limited exploration of new ideas. One of our goals with this project was to introduce more iteration and experimentation into our process, while still working within a more traditional, risk-averse organization.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/mholm/process.png&quot; alt=&quot;mholm-claims-process&quot; class=&quot;full-width&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We created a new process to use throughout this project. The first step was a discovery phase in which product managers would write job stories and designers would explore concepts and gather data from stakeholders. The end result of this phase would be a low-fidelity “alpha” design, intended mainly for alignment around content and structure.&lt;/p&gt;
+
+&lt;p&gt;We then would solicit feedback and approval from stakeholders. The goal of these meetings was to confirm that we were heading in the right direction. MHOL is used across many lines of business, and as a result these stakeholder meetings often involved upwards of 30-50 people who needed to review and approve our designs.
+Once we had sign-off from stakeholders, we moved into an iterative “beta” phase. During this time, work could begin on back-end services and infrastructure while designs and front-end work gradually increased in fidelity and moved toward final designs. Stakeholders had an opportunity to review progress at each sprint demo and provide feedback until development was complete.&lt;/p&gt;
+
+&lt;h2 id=&quot;an-example-claims&quot;&gt;An Example: Claims&lt;/h2&gt;
+&lt;p&gt;Here’s how that process worked in practice with one of our more heavily-utilized and important pages: claims.
+The current state of the claims page was confusing and dense. It contained external SSO links to view dental and vision claims (accessed, confusingly, through a select input) and pharmacy claims were located on different page within the portal. Hierarchy and visual consistency were sorely lacking.
+&lt;img src=&quot;/img/mholm/claims-current.png&quot; alt=&quot;mholm-claims-current&quot; class=&quot;full-width img-shadow&quot; /&gt;
+&lt;img src=&quot;/img/mholm/pharm-current.png&quot; alt=&quot;mholm-pharm-current&quot; class=&quot;full-width img-shadow&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We began experimenting with different ways of showing this data. Some early alpha concepts explored bringing all claims into the same page, or separating them out through separate links.&lt;/p&gt;
+&lt;div class=&quot;break-out&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/img/mholm/page-concepts.png&quot; alt=&quot;mholm-claims-page-concepts&quot; class=&quot;full-width&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We also explored different ways of displaying the data for each claim.&lt;/p&gt;
+&lt;div class=&quot;break-out&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/img/mholm/claim-concepts.png&quot; alt=&quot;mholm-claims-concepts&quot; class=&quot;full-width&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;After early rounds of feedback, we began to coalesce around bringing together the different types of claims into a single, unified claims experience. We realized that most members don’t think about having different types of insurance through UPMC; they simply think of it as their health insurance. We wanted to provide an easier way for members to see their most recent claims in one place.&lt;/p&gt;
+
+&lt;div class=&quot;break-out&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/img/mholm/alpha-combined.png&quot; alt=&quot;mholm-claims-alpha-combined&quot; class=&quot;full-width&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Our reviews with stakeholders confirmed this direction. Though we would still need SSO links for certain vendors, we could make them more visible and obviously clickable.
+&lt;img src=&quot;/img/mholm/claims-quotable.png&quot; alt=&quot;mholm-claims-quotable&quot; class=&quot;full-width img-shadow&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Front-end and services work began while we continued to iterate and refine our early concepts into high-fidelity visual designs.&lt;/p&gt;
+&lt;div class=&quot;break-out&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/img/mholm/claims-beta.png&quot; alt=&quot;mholm-claims-beta&quot; class=&quot;full-width&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Opportunity The portal for UPMC Health Plan members, MyHealth Online (MHOL), contains tools and information designed to help people manage their health insurance. It is used by over 377,000 registered members. However, like many legacy products, it was designed and developed in pieces by many people over long period of time. Most of the content and design of the portal had never been revisited since its initial conception. This resulted in a disjointed and confusing user experience. In addition, the age of the underlying technologies it was built on limited any opportunities for improvement.</summary></entry><entry><title type="html">Absence Management</title><link href="http://localhost:4000/upmcabsence/" rel="alternate" type="text/html" title="Absence Management" /><published>2017-03-23T00:00:00-04:00</published><updated>2017-03-23T00:00:00-04:00</updated><id>http://localhost:4000/upmcabsence</id><content type="html" xml:base="http://localhost:4000/upmcabsence/">&lt;h2 id=&quot;the-opportunity&quot;&gt;The Opportunity&lt;/h2&gt;
+&lt;p&gt;Filing a leave of absence from work to care for yourself or a family member is a right provided by the Family and Medical Leave Act of 1993. UPMC WorkPartners administrates absence management for clients, but their current online process was so difficult to understand that very few people chose to use it. They enlisted the help of Consumer Innovation to redesign their current intake process. In addition, they wanted to explore ways to better integrate and cross-promote their other service offerings, such as their Employee Assistance Program and Short Term Disability benefits.&lt;/p&gt;
+&lt;div class=&quot;break-out&quot;&gt;
+
+  &lt;p&gt;&lt;img src=&quot;/img/absence/current-home.png&quot; alt=&quot;hp-home&quot; class=&quot;side-by&quot; /&gt;
+&lt;img src=&quot;/img/absence/current-why.png&quot; alt=&quot;hp-why&quot; class=&quot;side-by&quot; /&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;break-out&quot;&gt;
+
+  &lt;p&gt;&lt;img src=&quot;/img/absence/current-type.png&quot; alt=&quot;hp-type&quot; class=&quot;side-by&quot; /&gt;
+&lt;img src=&quot;/img/absence/current-calendar.png&quot; alt=&quot;hp-calendar&quot; class=&quot;side-by&quot; /&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&quot;early-validation&quot;&gt;Early Validation&lt;/h2&gt;
+&lt;p&gt;We began by looking at the current state of the intake process and consulted with subject matter experts to understand which questions were required by law, which questions were helpful for a leave specialist handling the request, and which questions were confusing or could be safely omitted.&lt;/p&gt;
+
+&lt;p&gt;In addition to a dated design, and inconsistent UI controls, the assessment assumed a high level of subject matter expertise. For example, users generally do not have enough familiarity with the leave process to determine whether their leave request should be continuous or intermittent.&lt;/p&gt;
+
+&lt;p&gt;We mapped out the flow and iterated until we felt we had a sequence of questions that both made sense to a user and allowed our business stakeholders to obtain necessary information to process the request.&lt;/p&gt;
+&lt;div class=&quot;break-out&quot;&gt;
+
+  &lt;p&gt;&lt;img src=&quot;/img/absence/UserFlow.png&quot; alt=&quot;hp-flow&quot; class=&quot;full-width&quot; /&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;I also scheduled time to sit down with a leave specialist and observe as she answered intake calls. This helped me to get a better sense of how a request is handled and what questions were necessary to ask.&lt;/p&gt;
+
+&lt;p&gt;Although it was useful to have the assessment mapped out in a flow diagram, we soon found that stakeholders had trouble translating the flow into an actual experience. To help with that, we created a &lt;a href=&quot;http://2b7an2.axshare.com/#g=1&amp;amp;p=0__about&quot; target=&quot;_blank&quot;&gt;lo-fi prototype in Axure&lt;/a&gt;, to demonstrate the flow and wording of questions.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/absence/lofi.png&quot; alt=&quot;hp-lofi&quot; class=&quot;full-width&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;refinement-and-testing&quot;&gt;Refinement and Testing&lt;/h2&gt;
+&lt;p&gt;This proved to be a useful way of soliciting feedback, so we continued increasing the fidelity of the &lt;a href=&quot;http://k2vk6v.axshare.com/#g=1&amp;amp;p=i__who_needs_the_leave__you_employee_&quot; target=&quot;_blank&quot;&gt;Axure prototype&lt;/a&gt; as the process continued. This ended up being our source of truth for the questionnaire flow, interactions, and branching logic; the developers worked directly from this prototype to understand the requirements (with visual specs provided through Sketch and Zeplin). Throughout the process, we shared this prototype with leave specialists and subject matter experts to ensure we were conforming to WorkPartners process capabilities and federal regulations around FMLA.
+&lt;img src=&quot;/img/absence/hifi.png&quot; alt=&quot;hp-hifi&quot; class=&quot;full-width&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Near the end of the process, we had a chance to test our prototype with five users. During these moderated, in-person usability tests, we had users step through several scenarios, such as submitting a leave request as a result of their family member’s illness, or acting as a manager submitting a request on behalf of their employee.&lt;/p&gt;
+
+&lt;p&gt;One requirement of this project was to switch from a fixed-width design to a responsive, mobile-friendly design. We were able to ensure that a user could complete all steps of the process on any screen size.
+&lt;img src=&quot;/img/absence/tablet.png&quot; alt=&quot;hp-tablet&quot; class=&quot;side-by&quot; /&gt;
+&lt;img src=&quot;/img/absence/mobile.png&quot; alt=&quot;hp-mobile&quot; class=&quot;side-by&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;creating-a-system&quot;&gt;Creating a System&lt;/h2&gt;
+&lt;p&gt;As part of this project, we created a reusable system for designing assessments. The goal was to be able to expand the interaction patterns and code to other lines of business that contain similar intake assessments. This allowed several other assessment experiences to be updated and improved at low cost to WorkParnters, but with significant impact for their users. Additionally, we wanted to better guide people through the process by linking together relevant assessments and providing recommendations for resources and support that WorkPartners can provide, such as financial counseling or help finding childcare.&lt;/p&gt;
+
+&lt;p&gt;The resuable modules created as part of this project have allowed our business stakeholders to easily create new assessments for other lines of business, and ensure they are usable and well-designed, without the need for our group to be involved at every step of the process. The system has been used in at least five assessments, and opportunities continue to present themselves across UPMC. This also laid the groundwork for our nascent design system which is currently in active development.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/absence/workerscomp.png&quot; alt=&quot;hp-workerscomp&quot; class=&quot;full-width&quot; /&gt;
+&lt;img src=&quot;/img/absence/employeehealth.png&quot; alt=&quot;hp-employeehealth&quot; class=&quot;full-width&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">The Opportunity Filing a leave of absence from work to care for yourself or a family member is a right provided by the Family and Medical Leave Act of 1993. UPMC WorkPartners administrates absence management for clients, but their current online process was so difficult to understand that very few people chose to use it. They enlisted the help of Consumer Innovation to redesign their current intake process. In addition, they wanted to explore ways to better integrate and cross-promote their other service offerings, such as their Employee Assistance Program and Short Term Disability benefits.</summary></entry><entry><title type="html">Branding Brand Index</title><link href="http://localhost:4000/bbi/" rel="alternate" type="text/html" title="Branding Brand Index" /><published>2015-03-26T00:00:00-04:00</published><updated>2015-03-26T00:00:00-04:00</updated><id>http://localhost:4000/bbi</id><content type="html" xml:base="http://localhost:4000/bbi/">&lt;h2 id=&quot;the-opportunity&quot;&gt;The Opportunity&lt;/h2&gt;
+&lt;p&gt;Branding Brand is a Pittsburgh-based company that creates mobile sites and apps for ecommerce companies. Like many businesses, its revenue model depends on a healthy client conversion funnel. For many years Branding Brand received tons of leads, many of which converted, but the landscape of ecommerce changed dramatically in recent years.&lt;/p&gt;
+
+&lt;p&gt;When mobile commerce was new and companies weren’t sure how much to invest in it, they really just wanted a mobile presence. As a result, m-dot or standalone sites like the ones provided by Branding Brand became the standard. Soon it became clear that not only was mobile here to stay, it would soon surpass desktop in terms of traffic. It was no longer enough to simply have a mobile presence, so companies are really starting to invest in their omnichannel experience. A lot of retailers moved towards responsive solutions, and many are invested in in-house teams to implement them. The changing landscape created a need for a new business model for Branding Brand. As a member of the product team, we were tasked with creating a product to generate more leads and prove the value of a partner like Branding Brand. That’s where the Branding Brand Index, or BBI, came in.&lt;/p&gt;
+
+&lt;h2 id=&quot;discovery&quot;&gt;Discovery&lt;/h2&gt;
+&lt;p&gt;We created a cross-disciplinary team to explore the problem space. Our goal was to design a minimum viable product that was valuable, feasible, and usable. Our product manager was in charge of making sure it was valuable, our front end developer evaluated feasibility, and I was responsible for designing an easy to use product. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/bbi/storymap.png&quot; alt=&quot;bbi-storymap&quot; class=&quot;full-width&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We began by talking to our users and traveling to offices across the country. We interviewed current clients as well as clients who had recently left. We then took what we had learned about their needs and translated them into user stories and personas. 
+&lt;img src=&quot;/img/bbi/persona.png&quot; alt=&quot;bbi-persona&quot; class=&quot;full-width&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We converged on creating an online tool that evaluates an ecommerce brand across various platforms and form factors. Based on conversations with our clients, we knew it was important to provide both quantitative numbers as well as qualitative evaluation. We assessed various factors across categories such as usability, performance, content, and provided an overall score that brands could use to compare themselves within the industry. &lt;/p&gt;
+
+&lt;h2 id=&quot;ideation&quot;&gt;Ideation&lt;/h2&gt;
+&lt;p&gt;Then I started sketching out ideas and rapidly iterating. Working closely with a prototyper enabled me to explore and communicate a wide range of concepts to the team and our clients.
+&lt;img src=&quot;/img/bbi/sketches.png&quot; alt=&quot;bbi-sketches&quot; class=&quot;full-width&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Through this process we discovered a few major themes and design principles:&lt;/p&gt;
+
+&lt;h3 id=&quot;dont-make-me-read&quot;&gt;Don’t make me read&lt;/h3&gt;
+&lt;p&gt;Busy executives often don’t have time to read the details of a report and just want the big pictures. At the same time, they want evidence for why they should trust this data. It was important to our team to demonstrate rigor without overwhelming the user with numbers or math.&lt;/p&gt;
+
+&lt;h3 id=&quot;tell-me-what-to-do&quot;&gt;Tell me what to do&lt;/h3&gt;
+&lt;p&gt;Our clients were only interested in their score if it was accompained by actionable insights that they could bring back to their team for implementation.&lt;/p&gt;
+
+&lt;h3 id=&quot;help-me-outpace-my-competitor&quot;&gt;Help me outpace my competitor&lt;/h3&gt;
+&lt;p&gt;The ecommerce space is very competitive, especially among similar brands. When we gave demos of this tool, it was fairly common for a client to type in the name of their largest competitor before searching for their own brand. We wanted to explore ways to leverage this competition to provide motivation for change.&lt;/p&gt;
+
+&lt;h3 id=&quot;show-me-results&quot;&gt;Show me results&lt;/h3&gt;
+&lt;p&gt;Our goal was for brands to be able to use the BBI to track their performance over time. This would prove out the value of the recommendations provided by Branding Brand.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/bbi/concepts.png&quot; alt=&quot;bbi-concepts&quot; class=&quot;full-width&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;validation&quot;&gt;Validation&lt;/h2&gt;
+&lt;p&gt;Once we had several robust prototypes, we brought them back to our clients to get their feedback. Overall, the response was very positive. Clients liked that it helped them get a sense of where they were in the industry and what they needed to be offering to be on par with their competitors. &lt;/p&gt;
+
+&lt;h2 id=&quot;refinement&quot;&gt;Refinement&lt;/h2&gt;
+&lt;p&gt;At this point, now that we knew we were on the right track, we brought in an outside design agency to help us get everything ready for a beta launch as soon as possible. We worked in tandem to pursue a few different directions at once and then evaluate how well different approaches helped us achieve our goals. 
+&lt;img src=&quot;/img/bbi/concept2.png&quot; alt=&quot;bbi-concept2&quot; class=&quot;full-width&quot; /&gt;
+&lt;img src=&quot;/img/bbi/concept3.png&quot; alt=&quot;bbi-concept3&quot; class=&quot;full-width&quot; /&gt;
+&lt;img src=&quot;/img/bbi/concept3-2.png&quot; alt=&quot;bbi-concept3-2&quot; class=&quot;full-width&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Most of the exploration revolved around striking the right balance between making it easy to scan and surfacing valuable details. Over the next few weeks, we started converging on our final design.&lt;/p&gt;
+
+&lt;h2 id=&quot;mvp&quot;&gt;MVP&lt;/h2&gt;
+&lt;p&gt;The public beta of the BBI launched in the fall of 2015. The final design supported many of our original design objectives:
+&lt;img src=&quot;/img/bbi/final-full.png&quot; alt=&quot;bbi-final&quot; class=&quot;full-width img-shadow&quot; /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;dont-make-me-read-1&quot;&gt;Don’t make me read&lt;/h3&gt;
+&lt;p&gt;At the top is a large visualization based on the idea of a radar chart. The end result is a gemlike shape that’s different for every brand based on their strengths and weaknesses. Instead of giving each category a numeric score or a grade, we went with simplified dot indicators.
+&lt;img src=&quot;/img/bbi/final-highlight.png&quot; alt=&quot;bbi-final-highlight&quot; class=&quot;full-width&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A unique feature of this tool that we wanted to highlight is that it evaluate the omnichannel experience, as opposed to just a single url or site. We added an indicator at the top to show which channels were evaluated so brands could easily know what went into their score. 
+&lt;img src=&quot;/img/bbi/final-highlight2.png&quot; alt=&quot;bbi-final-highlight2&quot; class=&quot;full-width&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Each category also has a breakdown of how many passes, ok, and fails there are in that category. Each card represents an evaluation factor and is assigned a pass/fail icon to quickly identify low-scoring factors.&lt;/p&gt;
+
+&lt;h3 id=&quot;tell-me-what-to-do-1&quot;&gt;Tell me what to do&lt;/h3&gt;
+&lt;p&gt;Users can flip over individual cards for more information and a detailed description. We also included an indicator of the significance of each factor and level of effort to fix, so that brands could more easily prioritize what to tackle first.&lt;/p&gt;
+
+&lt;h3 id=&quot;help-me-outpace-my-competitor-1&quot;&gt;Help me outpace my competitor&lt;/h3&gt;
+&lt;p&gt;We categorized each company by industry and provided a way for brands to compare themselves to others in the same vertical. For the beta, we knew we’d only have 20-30 brands, so we wanted a way for people to explore without feeling frustrated by empty search results. We added in a random button as a way to jump between different brands.&lt;/p&gt;
+
+&lt;h3 id=&quot;show-me-results-1&quot;&gt;Show me results&lt;/h3&gt;
+&lt;p&gt;The score visualization also provided a way for brands to share their score with others in their company and easily visualize any changes that were achieved over a period of time. 
+&lt;img src=&quot;/img/bbi/final-top.png&quot; alt=&quot;bbi-final-top&quot; class=&quot;full-width&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">The Opportunity Branding Brand is a Pittsburgh-based company that creates mobile sites and apps for ecommerce companies. Like many businesses, its revenue model depends on a healthy client conversion funnel. For many years Branding Brand received tons of leads, many of which converted, but the landscape of ecommerce changed dramatically in recent years.</summary></entry><entry><title type="html">Branding Brand</title><link href="http://localhost:4000/brandingbrand/" rel="alternate" type="text/html" title="Branding Brand" /><published>2013-09-26T00:00:00-04:00</published><updated>2013-09-26T00:00:00-04:00</updated><id>http://localhost:4000/brandingbrand</id><content type="html" xml:base="http://localhost:4000/brandingbrand/">&lt;p&gt;In the fall of 2013, I joined the UX team at Branding Brand. I’ve had many different responsibilities during my two years at the company, and I currently am working on designing new products for the company.
+&lt;img src=&quot;/img/brandingbrand/wireframe.png&quot; alt=&quot;bb-wireframe&quot; class=&quot;half-width&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;wireframes&quot;&gt;Wireframes&lt;/h2&gt;
+&lt;p&gt;I contributed wireframes for many different client projects. These ranged from mobile commerce sites to apps to responsive sites. Most recently, I’ve been focused on responsive designs for enterprise products.
+I’m a big believer in using the right tool for the job, and during my time at Branding Brand I’ve created wireframes in Balsamiq, Axure, and Sketch, with varying levels of fidelity and interactivity.
+&lt;img src=&quot;/img/brandingbrand/prototype.png&quot; alt=&quot;bb-prototype&quot; class=&quot;half-width&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;prototyping&quot;&gt;Prototyping&lt;/h2&gt;
+&lt;p&gt;One of my biggest areas of growth at Branding Brand has been my technical skills. Although I knew basic HTML/CSS/Javascript before joining the company, I’ve had the chance to really grow in my understanding of how the web works. I’ve made several interactive prototypes that were shared widely in the company to demonstrate new interactions, and eventually incorporated into many of Branding Brand’s client sites. I’m always trying to push myself out of my comfort zone, and recently completed a prototype using Ember, Ember-Data and node.js.
+&lt;img src=&quot;/img/brandingbrand/animation.gif&quot; alt=&quot;bb-animate&quot; class=&quot;half-width&quot; /&gt;
+Animations and transitions can be so important when communicating an interaction. In order to convey animation ideas to clients, I created several videos and prototypes, using After Effects and Framer.
+&lt;img src=&quot;/img/brandingbrand/abtest.png&quot; alt=&quot;bb-abtest&quot; class=&quot;half-width&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;ab-testing&quot;&gt;A/B Testing&lt;/h2&gt;
+&lt;p&gt;I was responsible for regularly testing patterns and interactions to help develop a library of best practices for mobile commerce. I would design the tests and interpret the results. Often, I would also implement simple tests myself. This was a great introduction to data-driven decision-making and experimental test design.
+I also regularly evaluated client sites and documented recommendations for future A/B tests. This was mostly based on heuristic evaluation and the results of past tests.
+&lt;img src=&quot;/img/brandingbrand/research.png&quot; alt=&quot;bb-research&quot; class=&quot;half-width&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;user-testing&quot;&gt;User Testing&lt;/h2&gt;
+&lt;p&gt;I helped to introduce user testing practices at Branding Brand and conducted over 15 usability studies. I tested client sites with basic commerce tasks, such as finding a product, adding to cart, and completing checkout. The findings from these tests revealed issues and bugs that we would not have been able to catch otherwise.&lt;/p&gt;
+&lt;h2 id=&quot;product-design&quot;&gt;Product Design&lt;/h2&gt;
+&lt;p&gt;In February 2015, I joined the product team at Branding Brand as the only designer. I have been responsible for user research, wireframes, visual design, and usability testing of multiple products. I’ve worked closely with the product manager to help define product requirements and user stories. We’ve been fortunate to have a dedicated prototyper on the team, and I’ve been responsible for helping to rapidly iterate on our prototype concepts.
+I’ve also worked on developing design principles to help create a framework for making consistent and informed design decisions.
+Although I unfortunately can’t disclose the final results for many of these due to confidential information, &lt;a href=&quot;mailto:kelsey.humphries@gmail.com&quot;&gt;reach out&lt;/a&gt; if you’d like to chat more!&lt;/p&gt;</content><author><name></name></author><summary type="html">In the fall of 2013, I joined the UX team at Branding Brand. I’ve had many different responsibilities during my two years at the company, and I currently am working on designing new products for the company. Wireframes I contributed wireframes for many different client projects. These ranged from mobile commerce sites to apps to responsive sites. Most recently, I’ve been focused on responsive designs for enterprise products. I’m a big believer in using the right tool for the job, and during my time at Branding Brand I’ve created wireframes in Balsamiq, Axure, and Sketch, with varying levels of fidelity and interactivity. Prototyping One of my biggest areas of growth at Branding Brand has been my technical skills. Although I knew basic HTML/CSS/Javascript before joining the company, I’ve had the chance to really grow in my understanding of how the web works. I’ve made several interactive prototypes that were shared widely in the company to demonstrate new interactions, and eventually incorporated into many of Branding Brand’s client sites. I’m always trying to push myself out of my comfort zone, and recently completed a prototype using Ember, Ember-Data and node.js. Animations and transitions can be so important when communicating an interaction. In order to convey animation ideas to clients, I created several videos and prototypes, using After Effects and Framer. A/B Testing I was responsible for regularly testing patterns and interactions to help develop a library of best practices for mobile commerce. I would design the tests and interpret the results. Often, I would also implement simple tests myself. This was a great introduction to data-driven decision-making and experimental test design. I also regularly evaluated client sites and documented recommendations for future A/B tests. This was mostly based on heuristic evaluation and the results of past tests. User Testing I helped to introduce user testing practices at Branding Brand and conducted over 15 usability studies. I tested client sites with basic commerce tasks, such as finding a product, adding to cart, and completing checkout. The findings from these tests revealed issues and bugs that we would not have been able to catch otherwise. Product Design In February 2015, I joined the product team at Branding Brand as the only designer. I have been responsible for user research, wireframes, visual design, and usability testing of multiple products. I’ve worked closely with the product manager to help define product requirements and user stories. We’ve been fortunate to have a dedicated prototyper on the team, and I’ve been responsible for helping to rapidly iterate on our prototype concepts. I’ve also worked on developing design principles to help create a framework for making consistent and informed design decisions. Although I unfortunately can’t disclose the final results for many of these due to confidential information, reach out if you’d like to chat more!</summary></entry><entry><title type="html">Oliver</title><link href="http://localhost:4000/oliver/" rel="alternate" type="text/html" title="Oliver" /><published>2013-08-01T00:00:00-04:00</published><updated>2013-08-01T00:00:00-04:00</updated><id>http://localhost:4000/oliver</id><content type="html" xml:base="http://localhost:4000/oliver/">&lt;p&gt;For many people, travel is addicting. But when it comes down to actually planning a trip? Totally different story.
+Expedia has been the world’s largest online travel booking site for over 15 years, so they are very familiar with the pain points in the travel planning process. They enlisted our five person team (via &lt;a href=&quot;http://www.hcii.cmu.edu/academics/mhci/capstone-project&quot; target=&quot;_blank&quot;&gt;MHCI&lt;/a&gt;) to investigate characteristics that make experiences like Pinterest, Pandora, and Groupon so addicting. Is there a way to apply those principles of habitual discovery to how people think about travel in their everyday lives?&lt;/p&gt;
+&lt;h2 id=&quot;project-definition&quot;&gt;Project Definition&lt;/h2&gt;
+&lt;p&gt;We began with a kick-off meeting to define the initial scope of the project and create a hunt statement that would shape our research and synthesis process for the next few months.&lt;/p&gt;
+&lt;div class=&quot;pull-quote&quot;&gt;Our goal: “to engage travelers through habitual discovery, delightful planning, and confident decision making“.&lt;/div&gt;
+
+&lt;div&gt;&lt;img class=&quot;full-width&quot; src=&quot;/img/oliver/1-kickoff.jpg&quot; /&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;research&quot;&gt;Research&lt;/h2&gt;
+&lt;p&gt;We began our research process with a literature review and competitive analysis of both discovery and travel services. This helped us to understand the relationships between existing sites and identify leaders in different areas.
+We then began our field research, which consisted of talking to over 102 participants across the country.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/oliver/2-research.png&quot; class=&quot;article-width&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/img/oliver/2-research.png&quot; alt=&quot;oliver-research&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Contextual interviews&lt;/strong&gt; consisted of visiting a participant’s home and observing how they naturally used discovery and travel websites. These interviews revealed how people typically interact with these services and what keeps them coming back on a regular basis.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Guerrilla interviews&lt;/strong&gt; were conducted by traveling to a popular travel destination and asking people about their travel planning process. These retrospective interviews gave insight into how people plan travel and whether their plans change once traveling.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Joy visits&lt;/strong&gt; centered around talking to people who had activities they were passionate about, such as dancing, art, theatre, games, or biking. The goal here was to learn more about delight and flow outside of the digital space.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Journal studies&lt;/strong&gt; consisted of asking participants to fill out a journal page each day detailing their thoughts and feelings about travel, as well as any travel planning activities. This helped uncover how travel fits into people’s everyday lives. We conducted both two-week and two-month studies, in order to see the travel planning process over longer stretches of time.&lt;/p&gt;
+
+&lt;h2 id=&quot;synthesis&quot;&gt;Synthesis&lt;/h2&gt;
+&lt;p&gt;All of the field research yielded a lot of data to sift through. The main method we used to synthesize the data was affinity diagramming, in which each data point becomes a short note on a piece of paper. Notes are then grouped based on similarities, revealing the overarching themes and trends in the data. 
+&lt;img src=&quot;/img/oliver/3-affinity.jpg&quot; alt=&quot;oliver-affinity&quot; class=&quot;article-width&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/oliver/timeline.pdf&quot; class=&quot;float-right&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/img/oliver/4-timeline.jpg&quot; alt=&quot;oliver-timeline&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We also created a new synthesis method to help us deal with unpacking the data from the long-term journal studies. Each participant’s journal responses about travel planning were mapped onto a &lt;a href=&quot;/img/oliver/timeline.pdf&quot; target=&quot;_blank&quot;&gt;timeline&lt;/a&gt;.
+Based on trends in the data, we identified five key stages of travel planning. We highlighted each data point based on which of the stages it corresponded to. This allowed us to see similarities across participants and identify several different travel planning personas.&lt;/p&gt;
+
+&lt;h2 id=&quot;insights&quot;&gt;Insights&lt;/h2&gt;
+&lt;p&gt;From the data, we identified three key insights that would help inform our design:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Confident researching and organizing make travel planning more delightful and less stressful.&lt;/li&gt;
+  &lt;li&gt;Exploration is more enjoyable when the content is relevant, but there is still a desire for something novel.&lt;/li&gt;
+  &lt;li&gt;Experiences are better when they are shared with others, but coordination between people can be difficult.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We also found five stages of travel planning from our journal studies.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/oliver/5-stages.png&quot; alt=&quot;oliver-stages&quot; class=&quot;article-width&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;However, we found that people did not always move linearly through these stages, and different people often had different methods of planning travel. We identified nine main travel planning profiles and grouped each of our 36 journal participants into one of these profiles.
+For example, people who fell into the Price Checkers profile tended to spend a disproportionate amount of time in the investigating stage, and often completed it in parallel with the refining stage.
+&lt;img src=&quot;/img/oliver/6-pricecheckers.jpg&quot; alt=&quot;oliver-pricecheckers&quot; class=&quot;article-width&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;visioning&quot;&gt;Visioning&lt;/h2&gt;
+&lt;p&gt;Based on our findings from the research stage, we moved into visioning. The goal throughout visioning was to generate design ideas from our insights and to narrow them down to find one that would be best suited for our hunt statement and project scope.
+We began with ideation based on our affinity diagram and travel profiles, during which we “walked the wall” (actually several walls) of data and wrote down any design ideas.&lt;/p&gt;
+
+&lt;div&gt;&lt;img class=&quot;full-width&quot; src=&quot;/img/oliver/7-visioning.jpg&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;We narrowed these ideas down to our top ten most intriguing ones and created &lt;a href=&quot;/img/oliver/storyboards.pdf&quot; target=&quot;_blank&quot;&gt;storyboards&lt;/a&gt; for each of them. We then showed these storyboards in a speed dating format to our journal participants in order to elicit feedback and narrow down the ideas even further.
+&lt;img src=&quot;/img/oliver/8-storyboards.jpg&quot; alt=&quot;oliver-storyboards&quot; class=&quot;article-width&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/oliver/9-clientvisioning-alt.JPG&quot; class=&quot;float-right&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/img/oliver/9-clientvisioning.jpg&quot; alt=&quot;oliver-visioning&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We also conducted a visioning workshop with our clients, after presenting our research and insights to them. We did several group design activities together, such as brainstorming where a hypothetical new service might fit into the existing landscape of products.&lt;br /&gt;
+To help pull together all of these different methods and ideas, we created a user journey diagram that outlined how a user might move through the travel planning process. We also created an &lt;a href=&quot;/img/oliver/journeytable.pdf&quot; target=&quot;_blank&quot;&gt;accompanying chart&lt;/a&gt; that outlined user needs, thoughts, feelings, barriers, touchpoints, and service content for each stage in the user journey.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/oliver/10-userjourney.jpg&quot; alt=&quot;oliver-userjourney&quot; class=&quot;article-width&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To help us narrow down our feature set, we also created an &lt;a href=&quot;/img/oliver/achievability.pdf&quot; target=&quot;_blank&quot;&gt;achievability matrix&lt;/a&gt;, where we mapped features based on how impactful and feasible they were. We primarily chose features from the upper right quadrant of the matrix.
+&lt;a href=&quot;/img/oliver/achievability.pdf&quot; class=&quot;article-width&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/img/oliver/11-achievability.jpg&quot; alt=&quot;oliver-achievability&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, we created three design principles to help guide our future design decisions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Travel planning should be quick and effortless.&lt;/strong&gt; We found that many people dreaded travel planning because of how time consuming it tended to be. We wanted to make sure our solution helped to alleviate this problem.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;People should be able to choose how they plan travel.&lt;/strong&gt; Based on our travel profiles from our research findings, we knew that different people tended to plan travel in different ways. We wanted to make sure to support people’s natural way of travel planning, rather than try to force them into a planning profile that didn’t make sense to them&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Confident decision-making requires relevant information.&lt;/strong&gt; We found that people often struggled to make a definite commitment to their travel plans, and this often stemmed from feeling like they were missing key information. We wanted to make sure to include the information needed for people to feel secure in their decisions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rapid-iteration&quot;&gt;Rapid Iteration&lt;/h2&gt;
+&lt;p&gt;After wrapping up our research and visioning, we moved on to design. We created a weekly iteration cycle where we would design and build the next iteration in the early part of the week, receive feedback from our faculty advisors and clients, and then take it to test with users every Friday.
+&lt;img src=&quot;/img/oliver/12-cycle.png&quot; alt=&quot;oliver-cycle&quot; class=&quot;article-width&quot; /&gt;
+&lt;a href=&quot;/img/oliver/13-paper-full.jpg&quot; class=&quot;float-right&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/img/oliver/13-paper.jpg&quot; alt=&quot;oliver-paper&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;/img/oliver/14-pop-full.png&quot; class=&quot;float-right&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/img/oliver/14-pop.png&quot; alt=&quot;oliver-pop&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Using this iteration cycle, we created 8 different prototypes. Throughout the design-build-test cycle, our underlying concept changed twice, with smaller iterations within each concept.
+We initially created paper prototypes to test early ideas.
+These paper prototypes became clickable prototypes using POP and then we moved to Flinto for more robust interactions.
+Our final concept was prototyped as an actual iOS application, and we shared it for testing using TestFlight.
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;concept-video&quot;&gt;Concept Video&lt;/h2&gt;
+&lt;p&gt;Our biggest challenge was narrowing down the scope of our project. We had unearthed so many problems with the travel planning process that it was hard to cut down the feature list. Our initial prototype attempted to solve too many problems at once, which of course resulted in it not doing a good job of addressing any of them. Throughout the iteration cycle, we continued to fine-tune our scope until we were focusing solely on activities to do while traveling and the act of discovering new things to do. Here is a concept video for Oliver, our final product.&lt;/p&gt;
+
+&lt;iframe class=&quot;video-embed&quot; src=&quot;https://player.vimeo.com/video/72852013?color=ffffff&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;title=0&quot; width=&quot;900&quot; height=&quot;506&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;final-designs&quot;&gt;Final Designs&lt;/h2&gt;
+&lt;p&gt;The application centers around the discovery screen, where Oliver, an intelligent octopus facilitator, suggests new activities. The user then has the choice to hide, favorite, or skip each suggestion, and Oliver is able to learn from this input in order to better tailor his suggestions.
+Based on our insights from our research, we knew that limiting the information presented was important to users. We included a few simple filters to help limit the scope of discovery, while still allowing for novel suggestions.&lt;/p&gt;
+
+&lt;div class=&quot;break-out&quot;&gt;
+  &lt;p&gt;&lt;a href=&quot;/img/oliver/15-discovery-full.png&quot; class=&quot;side-by&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/img/oliver/15-discovery.png&quot; alt=&quot;oliver-discovery&quot; /&gt;&lt;/a&gt; 
+&lt;a href=&quot;/img/oliver/16-filters-full.png&quot; class=&quot;side-by&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/img/oliver/16-filters.png&quot; alt=&quot;oliver-filters&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Users save activities they are interested in to their Favorites list, and keep these activities in mind for the next time they are visiting a city.
+When actually planning a trip, they create an itinerary and add items from their Favorites, or they can just ask Oliver to suggest an activity.&lt;/p&gt;
+
+&lt;div class=&quot;break-out&quot;&gt;
+  &lt;p&gt;&lt;a href=&quot;/img/oliver/17-favorites-full.png&quot; class=&quot;side-by&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/img/oliver/17-favorites.png&quot; alt=&quot;oliver-favorites&quot; /&gt;&lt;/a&gt; 
+&lt;a href=&quot;/img/oliver/18-itinerary-full.png&quot; class=&quot;side-by&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/img/oliver/18-itinerary.png&quot; alt=&quot;oliver-itinerary&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;For more information about our process, check out our &lt;a href=&quot;http://hciresearch4.hcii.cs.cmu.edu/M-HCI/2013/Wanderlust/&quot; target=&quot;_blank&quot;&gt;project website&lt;/a&gt;.
+We also created two books detailing our &lt;a href=&quot;/img/oliver/WanderlustResearchReport.pdf&quot; target=&quot;_blank&quot;&gt;spring research process&lt;/a&gt; and our &lt;a href=&quot;/img/oliver/WanderlustDesignReport.pdf&quot; target=&quot;_blank&quot;&gt;summer design process&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">For many people, travel is addicting. But when it comes down to actually planning a trip? Totally different story. Expedia has been the world’s largest online travel booking site for over 15 years, so they are very familiar with the pain points in the travel planning process. They enlisted our five person team (via MHCI) to investigate characteristics that make experiences like Pinterest, Pandora, and Groupon so addicting. Is there a way to apply those principles of habitual discovery to how people think about travel in their everyday lives? Project Definition We began with a kick-off meeting to define the initial scope of the project and create a hunt statement that would shape our research and synthesis process for the next few months. Our goal: “to engage travelers through habitual discovery, delightful planning, and confident decision making“.</summary></entry><entry><title type="html">Pico</title><link href="http://localhost:4000/pico/" rel="alternate" type="text/html" title="Pico" /><published>2013-05-01T00:00:00-04:00</published><updated>2013-05-01T00:00:00-04:00</updated><id>http://localhost:4000/pico</id><content type="html" xml:base="http://localhost:4000/pico/">&lt;p&gt;When families are separated by distance, coordinating communication becomes difficult. Pico is a mobile application that aims to provide a personal way for families to connect using their smartphone cameras.
+&lt;img src=&quot;/img/pico/connect.png&quot; alt=&quot;pico-connect&quot; class=&quot;half-width&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;user-research&quot;&gt;User Research&lt;/h2&gt;
+&lt;p&gt;We conducted initial interviews with parents and asked about the challenges they faced in connecting with their children. From there, we narrowed our scope to focus on families with children in college and conducted interviews with three sets of parents and children about how they share information and keep in contact. Many families struggled with coordinating their busy schedules and how to determine which information was appropriate to share. We also found that pictures were a powerful communication tool for sharing important family moments.&lt;/p&gt;
+&lt;p class=&quot;pull-quote&quot;&gt; We identified a need for  a service that gives families a personal, engaging way to connect that is easy enough to fit into their busy lives.&lt;/p&gt;
+
+&lt;p&gt;You can find out more about our research and concept &lt;a href=&quot;/img/pico/PicoResearch.pdf&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;paper-prototyping&quot;&gt;Paper Prototyping&lt;/h2&gt;
+&lt;p&gt;We came up with a concept that would allow families to share glimpses of their lives quickly and easily using their smartphone camera. After creating quick paper mockups of the interface, we tested them with potential users to gather feedback about both the concept and the interface. We learned that the idea of sharing photos was intriguing to people, but there would need to be a unique hook to get them to invest time in a new app.&lt;/p&gt;
+
+&lt;div&gt;&lt;img class=&quot;full-width&quot; src=&quot;/img/pico/paper2.png&quot; /&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;wireframes&quot;&gt;Wireframes&lt;/h2&gt;
+&lt;p&gt;Before starting on visual design, we spent some time defining the interactions, particularly around creating a collage and uploading photos.
+&lt;img src=&quot;/img/pico/chooselayout.png&quot; alt=&quot;pico-chooselayout&quot; class=&quot;side-by&quot; /&gt;
+&lt;img src=&quot;/img/pico/takephoto.png&quot; alt=&quot;pico-takephoto&quot; class=&quot;side-by&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;final-designs&quot;&gt;Final Designs&lt;/h2&gt;
+&lt;p&gt;Since the entire concept of Pico centers around a lightweight, quick way to share moments with family members or friends, a big challenge was figuring out how to keep the content from becoming overwhelming. We didn’t want one person to be able to overwhelm the feed of photos and dominate the conversation. We also wanted to encourage curation, sharing a glimpse of a moment rather than 100 photos of the same moment. Although we discussed various ways of limiting information, such as a daily limit on how many photos could be added, none of them felt quite right, especially since we hoped to have people returning to the app often. We finally settled on the model of creating group collages centered around a theme or question. Each person in the group would only be able to contribute one photo to each collage, but multiple collages could be in progress at any point in time.&lt;/p&gt;
+&lt;div class=&quot;break-out&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/img/pico/current_picos.png&quot; alt=&quot;pico-current&quot; class=&quot;side-by img-shadow&quot; /&gt;
+&lt;img src=&quot;/img/pico/carousel.png&quot; alt=&quot;pico-carousel&quot; class=&quot;side-by img-shadow&quot; /&gt;
+&lt;img src=&quot;/img/pico/layout.png&quot; alt=&quot;pico-layout&quot; class=&quot;side-by img-shadow&quot; /&gt;
+&lt;img src=&quot;/img/pico/theme.png&quot; alt=&quot;pico-theme&quot; class=&quot;side-by img-shadow&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Users can choose from several preset layouts and can either create their own theme, or have one randomly generated for them. They also have the options of seeing the collage’s progress as others add photos, or waiting to be surprised until the collage is complete.&lt;/p&gt;
+
+&lt;h2 id=&quot;concept-video&quot;&gt;Concept Video&lt;/h2&gt;
+&lt;iframe class=&quot;video-embed&quot; src=&quot;https://player.vimeo.com/video/66476201?color=ffffff&amp;amp;title=0&amp;amp;byline=0&amp;amp;portrait=0&quot; width=&quot;900&quot; height=&quot;506&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href=&quot;/pico-prototype/index.htm&quot; class=&quot;float-right&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/img/pico/prototype.png&quot; alt=&quot;pico-prototype&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;interactive-prototype&quot;&gt;Interactive Prototype&lt;/h2&gt;
+&lt;p&gt;I created an interactive prototype, using Fireworks, which can be accessed &lt;a href=&quot;/pico-prototype/index.htm&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;. For the best experience, visit the link on an iPhone and save the page to your home screen. This will allow the prototype to behave more like an actual application.&lt;/p&gt;</content><author><name></name></author><summary type="html">When families are separated by distance, coordinating communication becomes difficult. Pico is a mobile application that aims to provide a personal way for families to connect using their smartphone cameras.</summary></entry><entry><title type="html">Check Me Out</title><link href="http://localhost:4000/checkmeout/" rel="alternate" type="text/html" title="Check Me Out" /><published>2012-12-15T00:00:00-05:00</published><updated>2012-12-15T00:00:00-05:00</updated><id>http://localhost:4000/checkmeout</id><content type="html" xml:base="http://localhost:4000/checkmeout/">&lt;p&gt;The current user experience for grocery shopping is often confusing and frustrating. Our team looked at redesigning that experience to be efficient and enjoyable.&lt;/p&gt;
+&lt;h2 id=&quot;initial-survey&quot;&gt;Initial Survey&lt;/h2&gt;
+&lt;p&gt;We began by finding out current frustrations that occur during the grocery shopping experience. From an initial survey, we identified the following needs:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;I always forget something&lt;/li&gt;
+  &lt;li&gt;I don’t want to spend too much money&lt;/li&gt;
+  &lt;li&gt;I can’t find what I’m looking for&lt;/li&gt;
+  &lt;li&gt;I feel overwhelmed when choosing between items&lt;/li&gt;
+  &lt;li&gt;I dislike the store environment and having to spend time there&lt;/li&gt;
+  &lt;li&gt;I don’t know which store has the best prices/selection&lt;/li&gt;
+  &lt;li&gt;The store does not have what I want&lt;/li&gt;
+  &lt;li&gt;I want an ethically responsible product&lt;/li&gt;
+  &lt;li&gt;I want more information about the food I’m buying&lt;/li&gt;
+  &lt;li&gt;I want to buy healthy items without spending too much&lt;/li&gt;
+  &lt;li&gt;I find it difficult to come up with new recipes&lt;/li&gt;
+  &lt;li&gt;The total price is higher than expected, but I feel bad removing items during checkout&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;on-site-interviews&quot;&gt;On-site Interviews&lt;/h2&gt;
+
+&lt;p&gt;We also visited a grocery store to conduct on-site interviews and asked people to give a quick retrospective account of their grocery shopping experience that day. One employee told us that people ask where items are located every three minutes. We also timed the checkout time of several customers and found on average the process took &lt;em&gt;8 minutes&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;make-tool&quot;&gt;Make Tool&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/img/checkmeout/maketool.png&quot; alt=&quot;cmo-maketool&quot; class=&quot;float-right&quot; /&gt;
+Next we used a make tool to validate our findings and find more about the different types of shoppers. We gave participants a map of a grocery store and asked them to sketch out their route through the store while thinking aloud.&lt;/p&gt;
+
+&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+&lt;p&gt;From this exercise, we identified two main groups of shoppers:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Planners&lt;/strong&gt; tend to have a structured list and go down most aisles. They are efficient and prefer self-checkout.
+&lt;img src=&quot;/img/checkmeout/planners.png&quot; alt=&quot;cmo-planners&quot; class=&quot;article-width&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Grabbers&lt;/strong&gt; tend to be more spontaneous and often shop without a list. They stick to the perimeter of the store and generally buy fewer items.
+&lt;img src=&quot;/img/checkmeout/grabbers.png&quot; alt=&quot;cmo-grabbers&quot; class=&quot;article-width&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;concept-maps&quot;&gt;Concept Maps&lt;/h2&gt;
+&lt;p&gt;We created concept maps to both visualize the current grocery shopping process and to also understand how the system we were designing could help to alleviate some of the current frustrations. We highlighted the user load to understand how our system would help the user.
+The concept map of the current grocery shopping experience placed a heavy load on the user (highlighted in pink).
+&lt;a href=&quot;/img/checkmeout/oldconcept-full.gif&quot; class=&quot;half-width&quot;&gt;&lt;img src=&quot;/img/checkmeout/oldconcept.gif&quot; alt=&quot;cmo-oldconcept&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We focused our solution on reducing the cognitive load for grocery shoppers.
+&lt;a href=&quot;/img/checkmeout/newconcept-full.gif&quot; class=&quot;half-width&quot;&gt;&lt;img src=&quot;/img/checkmeout/newconcept.gif&quot; alt=&quot;cmo-newconcept&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt;
+&lt;iframe class=&quot;video-embed&quot; src=&quot;https://player.vimeo.com/video/136459565?color=ffffff&amp;amp;title=0&amp;amp;byline=0&amp;amp;portrait=0&quot; width=&quot;900&quot; height=&quot;506&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/checkmeout/scanner.png&quot; alt=&quot;cmo-scanner&quot; class=&quot;float-right&quot; style=&quot;width:250px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Our final solution can be seen in action in the video above. We designed a scanner and smartphone dock to accompany a smartphone app. The app would help shoppers to create and manage lists on their smartphones and the scanner would allow shoppers to ring up items as they go, eliminating the need for checking out. The final solution saves time and money for both consumers and grocery stores and could be implemented with minimal overhaul to current shopping carts and infrastructure.&lt;/p&gt;</content><author><name></name></author><summary type="html">The current user experience for grocery shopping is often confusing and frustrating. Our team looked at redesigning that experience to be efficient and enjoyable. Initial Survey We began by finding out current frustrations that occur during the grocery shopping experience. From an initial survey, we identified the following needs: I always forget something I don’t want to spend too much money I can’t find what I’m looking for I feel overwhelmed when choosing between items I dislike the store environment and having to spend time there I don’t know which store has the best prices/selection The store does not have what I want I want an ethically responsible product I want more information about the food I’m buying I want to buy healthy items without spending too much I find it difficult to come up with new recipes The total price is higher than expected, but I feel bad removing items during checkout</summary></entry></feed>
