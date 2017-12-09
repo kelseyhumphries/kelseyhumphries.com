@@ -1,5 +1,5 @@
 ---
-featured: true
+featured: false
 layout: post
 title: Branding Brand
 subtitle: Mobile Commerce & Product Design
